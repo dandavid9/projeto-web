@@ -1,0 +1,26 @@
+body {
+    width: 1000px;
+    margin: 1em auto;
+    font-family: "Lucida Sans", Verdana, sans-serif;
+}
+
+form {
+	display: contents;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-right: 2em;
+    color: white;
+    background-color: #0074cc;
+}
+
+nav a:hover {
+    background-color: #00589e;
+}
+
+nav a.corrente {
+    box-shadow: 5px 5px 5px #3c1585;
+}

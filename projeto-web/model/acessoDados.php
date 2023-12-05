@@ -15,7 +15,8 @@ function obterPersonagens()
             "occupation" => "Assassina",
             "debut_game" => "Street Fighter 6",
             "availability" => "DLC",
-            "image" => "aki.png",
+            "image" => "SF6/aki.png",
+            "game_id" => "1",
         ],
         "tt0417742" => [
             "name" => "Blanka",
@@ -29,7 +30,8 @@ function obterPersonagens()
             "occupation" => "Guia Turístico",
             "debut_game" => "Street Fighter II",
             "availability" => "Jogo Base",
-            "image" => "blanka.png",
+            "image" => "SF6/blanka.png",
+            "game_id" => "1",
         ],
         "tt0417743" => [
             "name" => "Cammy",
@@ -44,7 +46,8 @@ function obterPersonagens()
             "occupation" => "Operativa Delta Red",
             "debut_game" => "Super Street Fighter II: The New Challengers",
             "availability" => "Jogo Base",
-            "image" => "cammy.png",
+            "image" => "SF6/cammy.png",
+            "game_id" => "1",
         ],
         "tt0417744" => [
             "name" => "Chun-Li",
@@ -58,7 +61,8 @@ function obterPersonagens()
             "occupation" => "Oficial da Interpol, Professora de Kung Fu",
             "debut_game" => "Street Fighter II",
             "availability" => "Jogo Base",
-            "image" => "chunli.png",
+            "image" => "SF6/chunli.png",
+            "game_id" => "1",
         ],
         "tt0417745" => [
             "name" => "Dee Jay",
@@ -72,7 +76,8 @@ function obterPersonagens()
             "occupation" => "Kickboxer & Músico",
             "debut_game" => "Super Street Fighter II: The New Challengers",
             "availability" => "Jogo Base",
-            "image" => "deejay.png",
+            "image" => "SF6/deejay.png",
+            "game_id" => "1",
         ],
         "tt0417746" => [
             "name" => "Dhalsim",
@@ -86,7 +91,8 @@ function obterPersonagens()
             "occupation" => "Mestre de Yoga",
             "debut_game" => "Street Fighter II",
             "availability" => "Jogo Base",
-            "image" => "dhalsim.png",
+            "image" => "SF6/dhalsim.png",
+            "game_id" => "1",
         ],
         "tt0417747" => [
             "name" => "E.Honda",
@@ -100,7 +106,8 @@ function obterPersonagens()
             "occupation" => "Sumotori",
             "debut_game" => "Street Fighter II: The World Warrior",
             "availability" => "Jogo Base",
-            "image" => "ehonda.png",
+            "image" => "SF6/ehonda.png",
+            "game_id" => "1",
         ],
         "tt0417761" => [
             "name" => "Guile",
@@ -114,7 +121,8 @@ function obterPersonagens()
             "occupation" => "Coronel da Força Aérea dos Estados Unidos",
             "debut_game" => "Street Fighter II",
             "availability" => "Jogo Base",
-            "image" => "guile.png",
+            "image" => "SF6/guile.png",
+            "game_id" => "1",
         ],
         "tt0417749" => [
             "name" => "Jamie",
@@ -128,7 +136,8 @@ function obterPersonagens()
             "occupation" => "Dançarino Experiente",
             "debut_game" => "Street Fighter 6",
             "availability" => "Jogo Base",
-            "image" => "jamie.png",
+            "image" => "SF6/jamie.png",
+            "game_id" => "1",
         ],
         "tt0417750" => [
             "name" => "JP",
@@ -142,7 +151,8 @@ function obterPersonagens()
             "occupation" => "Desconhecido",
             "debut_game" => "Street Fighter 6",
             "availability" => "Jogo Base",
-            "image" => "jp.png",
+            "image" => "SF6/jp.png",
+            "game_id" => "1",
         ],
         "tt0417751" => [
             "name" => "Juri",
@@ -156,7 +166,8 @@ function obterPersonagens()
             "occupation" => "Líder da S.I.N.",
             "debut_game" => "Super Street Fighter IV",
             "availability" => "Jogo Base",
-            "image" => "juri.png",
+            "image" => "SF6/juri.png",
+            "game_id" => "1",
         ],
         "tt0417752" => [
             "name" => "Ken",
@@ -172,7 +183,8 @@ function obterPersonagens()
                 "Artista Marcial, Trabalhador na Eagle Shipping Company",
             "debut_game" => "Street Fighter",
             "availability" => "Jogo Base",
-            "image" => "ken.png",
+            "image" => "SF6/ken.png",
+            "game_id" => "1",
         ],
         "tt0417753" => [
             "name" => "Kimberly",
@@ -186,7 +198,8 @@ function obterPersonagens()
             "occupation" => "Desconhecido",
             "debut_game" => "Street Fighter 6",
             "availability" => "Jogo Base",
-            "image" => "kimberly.png",
+            "image" => "SF6/kimberly.png",
+            "game_id" => "1",
         ],
         "tt0417754" => [
             "name" => "Lily",
@@ -200,7 +213,8 @@ function obterPersonagens()
             "occupation" => "Desconhecido",
             "debut_game" => "Street Fighter 6",
             "availability" => "Jogo Base",
-            "image" => "lily.png",
+            "image" => "SF6/lily.png",
+            "game_id" => "1",
         ],
         "tt0417755" => [
             "name" => "Luke",
@@ -214,7 +228,8 @@ function obterPersonagens()
             "occupation" => "Contratante Militar Privado",
             "debut_game" => "Street Fighter 5",
             "availability" => "Jogo Base",
-            "image" => "luke.png",
+            "image" => "SF6/luke.png",
+            "game_id" => "1",
         ],
         "tt0417756" => [
             "name" => "Manon",
@@ -228,7 +243,8 @@ function obterPersonagens()
             "occupation" => "Modelo e Campeã de Artes Marciais",
             "debut_game" => "Street Fighter 6",
             "availability" => "Jogo Base",
-            "image" => "manon.png",
+            "image" => "SF6/manon.png",
+            "game_id" => "1",
         ],
         "tt0417757" => [
             "name" => "Marisa",
@@ -242,7 +258,8 @@ function obterPersonagens()
             "occupation" => "Designer de Joias",
             "debut_game" => "Street Fighter 6",
             "availability" => "Jogo Base",
-            "image" => "marisa.png",
+            "image" => "SF6/marisa.png",
+            "game_id" => "1",
         ],
         "tt0417758" => [
             "name" => "Rashid",
@@ -256,7 +273,8 @@ function obterPersonagens()
             "occupation" => "Socialite",
             "debut_game" => "Street Fighter 5",
             "availability" => "DLC",
-            "image" => "rashid.png",
+            "image" => "SF6/rashid.png",
+            "game_id" => "1",
         ],
         "tt0417759" => [
             "name" => "Ryu",
@@ -270,7 +288,8 @@ function obterPersonagens()
             "occupation" => "Andarilho",
             "debut_game" => "Street Fighter",
             "availability" => "Jogo Base",
-            "image" => "ryu.png",
+            "image" => "SF6/ryu.png",
+            "game_id" => "1",
         ],
         "tt0417760" => [
             "name" => "Zangief",
@@ -284,7 +303,8 @@ function obterPersonagens()
             "occupation" => "Lutador",
             "debut_game" => "Street Fighter II",
             "availability" => "Jogo Base",
-            "image" => "zangief.png",
+            "image" => "SF6/zangief.png",
+            "game_id" => "1",
         ],
     ];
     return $personagens;

@@ -8,7 +8,8 @@
 $personagem = obterPersonagem($codPersonagem);
 echo <<<HTML
 <h2>{$personagem["name"]}</h2>
-<img src="imagens/{$personagem["image"]}" alt="poster do personagem">
+<img src="imagens/{$personagem['image']}" alt="imagem do personagem">
+
 <br>
 <p style="text-align:justify;"><span><b>Data de Nascimento</b>:&nbsp; {$personagem["birthdate"]}</span></p>
 <p style="text-align:justify;"><span><b>Local de Nascimento</b>:&nbsp; {$personagem["birthplace"]}</span></p>

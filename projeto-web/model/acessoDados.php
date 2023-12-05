@@ -168,7 +168,8 @@ function obterPersonagens()
             "hair_color" => "Preto, mas Ken o pinta de loiro",
             "fighting_style" =>
                 "Caratê estilo Shotokan, Arte marcial enraizada nas artes de assassinato",
-            "occupation" => "Artista Marcial, Trabalhador na Eagle Shipping Company",
+            "occupation" =>
+                "Artista Marcial, Trabalhador na Eagle Shipping Company",
             "debut_game" => "Street Fighter",
             "availability" => "Jogo Base",
             "image" => "ken.png",

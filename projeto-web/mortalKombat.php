@@ -1,15 +1,11 @@
 <?php
-	
-	session_start();
 
+session_start();
 
+include "model/acessoDados.php";
+$personagens = obterPersonagens();
 
-	include 'model/acessoDados.php';
-	$personagens = obterPersonagens();
-
-	include 'includes/header.php';
-	include 'view/mortalKombatView.php';
-	include 'includes/footer.php';
-
+include "includes/header.php";
+include "view/mortalKombatView.php";
+include "includes/footer.php";
 ?>
-	

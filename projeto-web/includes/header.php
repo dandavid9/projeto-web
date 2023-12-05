@@ -23,6 +23,3 @@
 		   <?php echo $scriptName == 'tekken.php' ? "class='corrente'" : '' ?>
 		>Tekken 7</a>
 	</nav>
-	
-
-

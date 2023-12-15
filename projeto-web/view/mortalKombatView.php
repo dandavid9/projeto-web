@@ -9,7 +9,7 @@
     <?php foreach ($personagens as $id => $personagem) {
         echo <<<HTML
         <form action="personagem.php" method="post">
-            <input type="image" src="imagens/SF6/{$personagem["image"]}" border="0" width="245px">
+            <input type="image" src="imagens/SF6/{$personagem['image']}" width="245px">
             <input type="hidden" name="codPersonagem" value='$id'>
             </form>
 HTML;

@@ -2,6 +2,13 @@
 
 session_start();
 
+if (isset($_SESSION['username'])) {
+    $username = $_SESSION['username'];
+}
+else {
+    header("Location: login.php");
+}
+
 include "model/acessoDados.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["codPersonagem"] = $_POST["codPersonagem"];

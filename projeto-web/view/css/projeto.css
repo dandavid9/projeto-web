@@ -24,3 +24,9 @@ nav a:hover {
 nav a.corrente {
     box-shadow: 5px 5px 5px #3c1585;
 }
+
+div.info {
+    border: black;
+    border-style: solid;
+    border-radius: 20px;
+}

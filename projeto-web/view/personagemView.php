@@ -11,6 +11,7 @@ echo <<<HTML
 <img src="imagens/{$personagem['image']}" alt="imagem do personagem">
 
 <br>
+<div class="info">
 <p style="text-align:justify;"><span><b>Data de Nascimento</b>:&nbsp; {$personagem["birthdate"]}</span></p>
 <p style="text-align:justify;"><span><b>Local de Nascimento</b>:&nbsp; {$personagem["birthplace"]}</span></p>
 <p style="text-align:justify;"><span><b>Altura</b>:&nbsp; {$personagem["height"]}</span></p>
@@ -21,6 +22,7 @@ echo <<<HTML
 <p style="text-align:justify;"><span><b>Ocupação</b>:&nbsp; {$personagem["occupation"]}</span></p>
 <p style="text-align:justify;"><span><b>Jogo de Estreia</b>:&nbsp; {$personagem["debut_game"]}</span></p>
 <p style="text-align:justify;"><span><b>Disponibilidade</b>:&nbsp; {$personagem["availability"]}</span></p>
+<div>
 
 
 HTML;

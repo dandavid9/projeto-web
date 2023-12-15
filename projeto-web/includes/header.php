@@ -18,9 +18,7 @@
 		<a href="mortalKombat.php"
 		   <?php echo $scriptName == 'mortalKombat.php' ? "class='corrente'" : '' ?>
 		>Mortal Kombat 1</a>
-		<a href="tekken.php"
-		   <?php echo $scriptName == 'tekken.php' ? "class='corrente'" : '' ?>
-		>Tekken 7</a>
+
 	</nav>
 	<div style='display: inline; border: black; border-style: solid;'>
 	<?php

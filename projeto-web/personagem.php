@@ -9,11 +9,11 @@ else {
     header("Location: login.php");
 }
 
-include "model/acessoDados.php";
+include "model/acessoDadosBD.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $_SESSION["codPersonagem"] = $_POST["codPersonagem"];
-    $codPersonagem = $_SESSION["codPersonagem"];
-    $personagem = obterPersonagem($codPersonagem);
+    $_SESSION["idPersonagem"] = $_POST["idPersonagem"];
+    $idPersonagem = $_SESSION["idPersonagem"];
+    $personagem = obterPersonagem($idPersonagem);
 }
 
 include "includes/header.php";

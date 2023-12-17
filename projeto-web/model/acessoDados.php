@@ -3,7 +3,7 @@
 function obterPersonagens()
 {
     $personagens = [
-        "sf_id_1" => [
+        "1" => [
             "name" => "Aki",
             "birthdate" => "Desconhecido",
             "birthplace" => "China",
@@ -18,7 +18,7 @@ function obterPersonagens()
             "image" => "SF6/aki.png",
             "game_id" => "1",
         ],
-        "sf_id_2" => [
+        "2" => [
             "name" => "Blanka",
             "birthdate" => "12 de fevereiro",
             "birthplace" => "Brasil",
@@ -33,7 +33,7 @@ function obterPersonagens()
             "image" => "SF6/blanka.png",
             "game_id" => "1",
         ],
-        "sf_id_3" => [
+        "3" => [
             "name" => "Cammy",
             "birthdate" => "6 de janeiro de 1974",
             "birthplace" => "Desconhecido",
@@ -49,7 +49,7 @@ function obterPersonagens()
             "image" => "SF6/cammy.png",
             "game_id" => "1",
         ],
-        "sf_id_4" => [
+        "4" => [
             "name" => "Chun-Li",
             "birthdate" => "1 de março de 1968",
             "birthplace" => "China",
@@ -64,7 +64,7 @@ function obterPersonagens()
             "image" => "SF6/chunli.png",
             "game_id" => "1",
         ],
-        "sf_id_5" => [
+        "5" => [
             "name" => "Dee Jay",
             "birthdate" => "31 de outubro de 1965",
             "birthplace" => "Jamaica",
@@ -79,7 +79,7 @@ function obterPersonagens()
             "image" => "SF6/deejay.png",
             "game_id" => "1",
         ],
-        "sf_id_6" => [
+        "6" => [
             "name" => "Dhalsim",
             "birthdate" => "22 de novembro",
             "birthplace" => "Índia",
@@ -94,7 +94,7 @@ function obterPersonagens()
             "image" => "SF6/dhalsim.png",
             "game_id" => "1",
         ],
-        "sf_id_7" => [
+        "7" => [
             "name" => "E.Honda",
             "birthdate" => "3 de novembro de 1960",
             "birthplace" => "Japão",
@@ -109,7 +109,7 @@ function obterPersonagens()
             "image" => "SF6/ehonda.png",
             "game_id" => "1",
         ],
-        "sf_id_8" => [
+        "8" => [
             "name" => "Guile",
             "birthdate" => "23 de dezembro de 1960",
             "birthplace" => "Estados Unidos",
@@ -124,7 +124,7 @@ function obterPersonagens()
             "image" => "SF6/guile.png",
             "game_id" => "1",
         ],
-        "sf_id_9" => [
+        "9" => [
             "name" => "Jamie",
             "birthdate" => "30 de outubro",
             "birthplace" => "Hong Kong",
@@ -139,7 +139,7 @@ function obterPersonagens()
             "image" => "SF6/jamie.png",
             "game_id" => "1",
         ],
-        "sf_id_10" => [
+        "10" => [
             "name" => "JP",
             "birthdate" => "Desconhecido",
             "birthplace" => "Rússia, França",
@@ -154,7 +154,7 @@ function obterPersonagens()
             "image" => "SF6/jp.png",
             "game_id" => "1",
         ],
-        "sf_id_11" => [
+        "11" => [
             "name" => "Juri",
             "birthdate" => "1 de janeiro",
             "birthplace" => "Coreia do Sul",
@@ -169,7 +169,7 @@ function obterPersonagens()
             "image" => "SF6/juri.png",
             "game_id" => "1",
         ],
-        "sf_id_12" => [
+        "12" => [
             "name" => "Ken",
             "birthdate" => "14 de fevereiro",
             "birthplace" => "EUA",
@@ -186,7 +186,7 @@ function obterPersonagens()
             "image" => "SF6/ken.png",
             "game_id" => "1",
         ],
-        "sf_id_13" => [
+        "13" => [
             "name" => "Kimberly",
             "birthdate" => "15 de abril",
             "birthplace" => "Estados Unidos",
@@ -201,7 +201,7 @@ function obterPersonagens()
             "image" => "SF6/kimberly.png",
             "game_id" => "1",
         ],
-        "sf_id_14" => [
+        "14" => [
             "name" => "Lily",
             "birthdate" => "3 de junho",
             "birthplace" => "México",
@@ -216,7 +216,7 @@ function obterPersonagens()
             "image" => "SF6/lily.png",
             "game_id" => "1",
         ],
-        "sf_id_15" => [
+        "15" => [
             "name" => "Luke",
             "birthdate" => "17 de fevereiro",
             "birthplace" => "Estados Unidos da América",
@@ -231,7 +231,7 @@ function obterPersonagens()
             "image" => "SF6/luke.png",
             "game_id" => "1",
         ],
-        "sf_id_16" => [
+        "16" => [
             "name" => "Manon",
             "birthdate" => "2 de setembro",
             "birthplace" => "França",
@@ -246,7 +246,7 @@ function obterPersonagens()
             "image" => "SF6/manon.png",
             "game_id" => "1",
         ],
-        "sf_id_17" => [
+        "17" => [
             "name" => "Marisa",
             "birthdate" => "26 de setembro",
             "birthplace" => "Itália",
@@ -261,7 +261,7 @@ function obterPersonagens()
             "image" => "SF6/marisa.png",
             "game_id" => "1",
         ],
-        "sf_id_18" => [
+        "18" => [
             "name" => "Rashid",
             "birthdate" => "7 de junho",
             "birthplace" => "Oriente Médio",
@@ -276,7 +276,7 @@ function obterPersonagens()
             "image" => "SF6/rashid.png",
             "game_id" => "1",
         ],
-        "sf_id_19" => [
+        "19" => [
             "name" => "Ryu",
             "birthdate" => "21 de julho",
             "birthplace" => "Japão",
@@ -291,7 +291,7 @@ function obterPersonagens()
             "image" => "SF6/ryu.png",
             "game_id" => "1",
         ],
-        "sf_id_20" => [
+        "20" => [
             "name" => "Zangief",
             "birthdate" => "1 de junho de 1956",
             "birthplace" => "Rússia",
@@ -306,7 +306,7 @@ function obterPersonagens()
             "image" => "SF6/zangief.png",
             "game_id" => "1",
         ],
-        "mk_id_1" => [
+        "21" => [
             "name" => "Ashrah",
             "birthdate" => "Desconhecida",
             "birthplace" => "Netherrealm",
@@ -321,7 +321,7 @@ function obterPersonagens()
             "image" => "MK1/ashrah.png",
             "game_id" => "2",
         ],
-        "mk_id_2" => [
+        "22" => [
             "name" => "Baraka",
             "birthdate" => "Desconhecida",
             "birthplace" => "Outworld",
@@ -335,7 +335,8 @@ function obterPersonagens()
             "availability" => "Jogo Base",
             "image" => "MK1/baraka.png",
             "game_id" => "2",
-        ],"mk_id_3" => [
+        ],
+        "23" => [
             "name" => "General Shao",
             "birthdate" => "Desconhecida",
             "birthplace" => "Outworld",
@@ -350,7 +351,7 @@ function obterPersonagens()
             "image" => "MK1/generalshao.png",
             "game_id" => "2",
         ],
-        "mk_id_4" => [
+        "24" => [
             "name" => "Geras",
             "birthdate" => "Desconhecida",
             "birthplace" => "Desconhecido",
@@ -365,7 +366,7 @@ function obterPersonagens()
             "image" => "MK1/geras.png",
             "game_id" => "2",
         ],
-        "mk_id_5" => [
+        "25" => [
             "name" => "Havik",
             "birthdate" => "Desconhecida",
             "birthplace" => "Orderrealm",
@@ -380,7 +381,7 @@ function obterPersonagens()
             "image" => "MK1/havik.png",
             "game_id" => "2",
         ],
-        "mk_id_6" => [
+        "26" => [
             "name" => "Johnny Cage",
             "birthdate" => "1963",
             "birthplace" => "Veneza, Carlifornia, EUA.",
@@ -395,7 +396,7 @@ function obterPersonagens()
             "image" => "MK1/johnnycage.png",
             "game_id" => "2",
         ],
-        "mk_id_7" => [
+        "27" => [
             "name" => "Kenshi",
             "birthdate" => "Desconhecida",
             "birthplace" => "Japão",
@@ -409,7 +410,8 @@ function obterPersonagens()
             "availability" => "Jogo Base",
             "image" => "MK1/kenshi.png",
             "game_id" => "2",
-        ],"mk_id_8" => [
+        ],
+        "28" => [
             "name" => "Kitana",
             "birthdate" => "Desconhecida",
             "birthplace" => "Edenia",
@@ -424,7 +426,7 @@ function obterPersonagens()
             "image" => "MK1/kitana.png",
             "game_id" => "2",
         ],
-        "mk_id_9" => [
+        "29" => [
             "name" => "Kung Lao",
             "birthdate" => "13 de fevereiro",
             "birthplace" => "Zhumadian, Província de Henan, China",
@@ -439,7 +441,7 @@ function obterPersonagens()
             "image" => "MK1/kunglao.png",
             "game_id" => "2",
         ],
-        "mk_id_10" => [
+        "30" => [
             "name" => "Li Mei",
             "birthdate" => "Desconhecida",
             "birthplace" => "Sun Do, Outworld",
@@ -454,7 +456,7 @@ function obterPersonagens()
             "image" => "MK1/limei.png",
             "game_id" => "2",
         ],
-        "mk_id_11" => [
+        "31" => [
             "name" => "Liu Kang",
             "birthdate" => "Desconhecida",
             "birthplace" => "Earthrealm (Província de Henan, China)",
@@ -469,7 +471,7 @@ function obterPersonagens()
             "image" => "MK1/liukang.png",
             "game_id" => "2",
         ],
-        "mk_id_12" => [
+        "32" => [
             "name" => "Mileena",
             "birthdate" => "1 de maio",
             "birthplace" => "Outworld",
@@ -484,7 +486,7 @@ function obterPersonagens()
             "image" => "MK1/mileena.png",
             "game_id" => "2",
         ],
-        "mk_id_13" => [
+        "33" => [
             "name" => "Nitara",
             "birthdate" => "Desconhecida",
             "birthplace" => "Vaeternus",
@@ -499,7 +501,7 @@ function obterPersonagens()
             "image" => "MK1/nitara.png",
             "game_id" => "2",
         ],
-        "mk_id_14" => [
+        "34" => [
             "name" => "Omni-Man",
             "birthdate" => "Desconhecida",
             "birthplace" => "Viltrum",
@@ -514,7 +516,7 @@ function obterPersonagens()
             "image" => "MK1/omniman.png",
             "game_id" => "2",
         ],
-        "mk_id_15" => [
+        "35" => [
             "name" => "Raiden",
             "birthdate" => "Desconhecida",
             "birthplace" => "Fengjian",
@@ -529,7 +531,7 @@ function obterPersonagens()
             "image" => "MK1/raiden.png",
             "game_id" => "2",
         ],
-        "mk_id_16" => [
+        "36" => [
             "name" => "Rain",
             "birthdate" => "Desconhecida",
             "birthplace" => "Edenia",
@@ -544,7 +546,7 @@ function obterPersonagens()
             "image" => "MK1/rain.png",
             "game_id" => "2",
         ],
-        "mk_id_17" => [
+        "37" => [
             "name" => "Reiko",
             "birthdate" => "Desconhecida",
             "birthplace" => "Outworld",
@@ -559,7 +561,7 @@ function obterPersonagens()
             "image" => "MK1/reiko.png",
             "game_id" => "2",
         ],
-        "mk_id_18" => [
+        "38" => [
             "name" => "Reptile",
             "birthdate" => "Desconhecida",
             "birthplace" => "Zaterra",
@@ -574,7 +576,7 @@ function obterPersonagens()
             "image" => "MK1/reptile.png",
             "game_id" => "2",
         ],
-        "mk_id_19" => [
+        "39" => [
             "name" => "Scorpion",
             "birthdate" => "9 de fevereiro de 1969",
             "birthplace" => "Japão",
@@ -589,7 +591,7 @@ function obterPersonagens()
             "image" => "MK1/scorpion.png",
             "game_id" => "2",
         ],
-        "mk_id_20" => [
+        "40" => [
             "name" => "Shang Tsung",
             "birthdate" => "Desconhecida",
             "birthplace" => "Earthrealm (China)",
@@ -604,7 +606,7 @@ function obterPersonagens()
             "image" => "MK1/shangtsung.png",
             "game_id" => "2",
         ],
-        "mk_id_21" => [
+        "41" => [
             "name" => "Sindel",
             "birthdate" => "Desconhecida",
             "birthplace" => "Desconhecido",
@@ -620,7 +622,7 @@ function obterPersonagens()
             "game_id" => "2",
         ],
         
-        "mk_id_22" => [
+        "42" => [
             "name" => "Smoke",
             "birthdate" => "Desconhecida",
             "birthplace" => "República Tcheca",
@@ -636,7 +638,7 @@ function obterPersonagens()
             "game_id" => "2",
         ],
         
-        "mk_id_23" => [
+        "43" => [
             "name" => "Sub-Zero",
             "birthdate" => "Desconhecida",
             "birthplace" => "Earthrealm (China)",
@@ -652,7 +654,7 @@ function obterPersonagens()
             "game_id" => "2",
         ],
         
-        "mk_id_24" => [
+        "44" => [
             "name" => "Tanya",
             "birthdate" => "Desconhecida",
             "birthplace" => "Edenia",

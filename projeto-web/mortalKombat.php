@@ -9,7 +9,7 @@ else {
     header("Location: login.php");
 }
 
-include "model/acessoDados.php";
+include "model/acessoDadosBD.php";
 $personagens = obterPersonagens();
 
 include "includes/header.php";

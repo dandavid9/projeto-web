@@ -13,7 +13,7 @@
         echo <<<HTML
         <form action="personagem.php" method="post">
             <input type="image" src="imagens/{$personagem['image']}" width="245px">
-            <input type="hidden" name="codPersonagem" value='$id'>
+            <input type="hidden" name="idPersonagem" value='$id'>
             </form>
 HTML;
         }

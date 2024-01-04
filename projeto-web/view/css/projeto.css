@@ -30,3 +30,51 @@ div.info {
     border-style: solid;
     border-radius: 20px;
 }
+
+/* estilos.css */
+
+div#navigation {
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+div#navigation form {
+    display: inline;
+}
+
+div#navigation input[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do texto do botão */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+div#navigation input[type="submit"]:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar por cima */
+}
+
+#user-info {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+#user-info p {
+    display: inline;
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    padding-right: 10px;
+    font-weight: bold; /* Texto em negrito */
+}
+
+#user-info a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #007bff; /* Cor do link */
+}
+
+#user-info a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}

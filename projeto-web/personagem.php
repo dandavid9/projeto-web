@@ -10,6 +10,7 @@ else {
 }
 
 include "model/acessoDadosBD.php";
+$personagens = obterPersonagens();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["idPersonagem"] = $_POST["idPersonagem"];
     $idPersonagem = $_SESSION["idPersonagem"];

@@ -20,9 +20,9 @@
 		>Mortal Kombat 1</a>
 
 	</nav>
-	<div style='display: inline; border: black; border-style: solid;'>
-	<?php
-            echo "<p style='display: inline; padding-right:10px'>User: $username</p>";
-			echo "<a href='logout.php' style='display: inline;'>Logout</a>";
-            ?> 
-	</div>
+	<div id="user-info">
+    <?php
+    echo "<p>User: $username</p>";
+    echo "<a href='logout.php'>Logout</a>";
+    ?> 
+</div>

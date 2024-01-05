@@ -5,7 +5,7 @@ body {
 }
 
 form {
-	display: contents;
+    display: contents;
 }
 
 nav a {
@@ -34,7 +34,8 @@ div.info {
 /* estilos.css */
 
 div#navigation {
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 20px;
+    /* Ajuste conforme necessário */
 }
 
 div#navigation form {
@@ -42,17 +43,25 @@ div#navigation form {
 }
 
 div#navigation input[type="submit"] {
-    background-color: #4CAF50; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    font-size: 16px; /* Tamanho da fonte do texto do botão */
-    cursor: pointer; /* Altera o cursor ao passar por cima */
-    border: none; /* Remove a borda padrão do botão */
-    border-radius: 5px; /* Borda arredondada */
+    background-color: #4CAF50;
+    /* Cor de fundo do botão */
+    color: white;
+    /* Cor do texto do botão */
+    padding: 10px 20px;
+    /* Espaçamento interno do botão */
+    font-size: 16px;
+    /* Tamanho da fonte do texto do botão */
+    cursor: pointer;
+    /* Altera o cursor ao passar por cima */
+    border: none;
+    /* Remove a borda padrão do botão */
+    border-radius: 5px;
+    /* Borda arredondada */
 }
 
 div#navigation input[type="submit"]:hover {
-    background-color: #45a049; /* Cor de fundo do botão ao passar por cima */
+    background-color: #45a049;
+    /* Cor de fundo do botão ao passar por cima */
 }
 
 #user-info {
@@ -65,16 +74,82 @@ div#navigation input[type="submit"]:hover {
 
 #user-info p {
     display: inline;
-    margin: 0; /* Remove a margem padrão do parágrafo */
+    margin: 0;
+    /* Remove a margem padrão do parágrafo */
     padding-right: 10px;
-    font-weight: bold; /* Texto em negrito */
+    font-weight: bold;
+    /* Texto em negrito */
 }
 
 #user-info a {
-    text-decoration: none; /* Remove o sublinhado do link */
-    color: #007bff; /* Cor do link */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+    color: #007bff;
+    /* Cor do link */
 }
 
 #user-info a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
+input[value="Like"] {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+input[value="Like"]:hover {
+    color: #fff;
+    background-color: #025aa5;
+    border-color: #01549b;
+}
+
+input[value="Dislike"] {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+input[value="Dislike"]:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+div.like {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    font-size: 18px;
+
+    padding: 14px 22px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    background-color: #d9edf7;
+    border-color: #bcdff1;
+    color: #31708f;
+}
+
+.personagem form {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+div.personagem {
+    border: 1px solid #C0C0C0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    display: inline-grid;
+
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 5px 5px 15px #606060;
+
+    width: 24%;
+    flex-basis: auto;
 }

@@ -1,3 +1,33 @@
+CREATE TABLE IF NOT EXISTS users (
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+     `email` varchar(40) NOT NULL,
+  PRIMARY KEY (`username`)
+);
+
+CREATE TABLE IF NOT EXISTS userlikes (
+  personagemId int NOT NULL,
+  username varchar(20) NOT NULL,
+  PRIMARY KEY (username, personagemId),
+  FOREIGN KEY (username) REFERENCES users(username),
+  FOREIGN KEY (personagemId) REFERENCES personagem(id_personagem)
+);
+
+
+INSERT INTO users (username, `password`, email) VALUES
+('danilo', '1234', 'danilo@hotmail.com'),
+('duarte', '1234', 'duarte@gmail.com'),
+('admin', 'admin', 'admin@outlook.com');
+
+INSERT INTO `userlikes` ( `username`, `personagemId` ) VALUES
+('danilo', 9),
+('danilo', 11),
+('danilo', 14),
+('duarte', 2),
+('duarte', 24),
+('admin', 3);
+
+
 CREATE TABLE IF NOT EXISTS game (
     id_game INT PRIMARY KEY AUTO_INCREMENT,
     game_title VARCHAR(255) NOT NULL,

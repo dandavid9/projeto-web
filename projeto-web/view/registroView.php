@@ -7,16 +7,16 @@
 
 <body>
     <header>
-        <h1>Login</h1>
+        <h1>Cadastro</h1>
         
-            <form id="getUsername" action="login.php" method="post">
-                <label>Username </label>
+            <form id="register" action="registro.php" method="post">
+                <label>Username</label>
                 <input type="text" placeholder="Username" name="username" required>
                 <label>Password </label>
                 <input type="text" placeholder="Password" name="password" required>
-                <input type="submit" name="login" value="Login">
+                <input type="submit" name="registro" value="Registrar">
             </form>
-            <p>Não tem uma conta? <a href="registro.php">Registre-se</a></p>
+            <p>Ja possui uma conta? <a href="login.php">Entre</a></p>
             </header>
 
 </body></html>

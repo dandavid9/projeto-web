@@ -6,13 +6,10 @@ include "model/acessoDadosBD.php";
 
 if (isset($_SESSION['username'])) {
     $username = $_SESSION['username'];
+    $likes = getLikes($username);
 }
 else {
     header("Location: login.php");
-}
-
-if (!empty($username)) {
-    $likes = getLikes($username);
 }
 
 $personagens = obterPersonagens();

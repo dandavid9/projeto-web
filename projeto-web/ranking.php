@@ -12,9 +12,9 @@ else {
     header("Location: login.php");
 }
 
-$personagens = obterPersonagens();
+$personagens = obterPersonagensRanking();
 
 include "includes/header.php";
-include "view/mortalKombatView.php";
+include "view/rankingView.php";
 include "includes/footer.php";
 ?>

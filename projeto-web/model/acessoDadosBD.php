@@ -36,6 +36,7 @@ function obterPersonagens()
     return $personagens;
 }
 
+
 function obterPersonagem($idPersonagem) 
 {
     $conexao = estabelerConexao();
@@ -49,10 +50,41 @@ function obterPersonagem($idPersonagem)
     return $personagem;
 }
 
-function usernameExists( $username )
+
+function obterPersonagensRanking() 
 {
     $conexao = estabelerConexao();
-    $stmt = $conexao->prepare("SELECT username FROM users WHERE username=:username" );
+
+    $query = '
+        SELECT p.*, COUNT(ul.personagemId) AS total_likes
+        FROM personagem p
+        LEFT JOIN userlikes ul ON p.id_personagem = ul.personagemId
+        GROUP BY p.id_personagem
+        HAVING total_likes > 0
+        ORDER BY total_likes DESC';
+
+    $stmt = $conexao->query($query);
+    
+    $personagens = $stmt->fetchAll(PDO::FETCH_UNIQUE);
+
+    return $personagens;
+}
+
+function obterLikesPersonagem($idPersonagem)
+{
+    $conexao = estabelerConexao();
+    $stmt = $conexao->prepare("SELECT COUNT(*) FROM userlikes WHERE personagemId = :id");
+    $stmt->bindParam(':id', $idPersonagem, PDO::PARAM_INT);
+    $stmt->execute();
+
+    return $stmt->fetchColumn();
+}
+
+
+function usernameExists($username)
+{
+    $conexao = estabelerConexao();
+    $stmt = $conexao->prepare("SELECT username FROM users WHERE username=:username");
     $stmt->execute( [ 'username' => $username ] );
     $username = $stmt->fetchColumn();
 
@@ -60,11 +92,32 @@ function usernameExists( $username )
 }
 
 
-function adicionarUser( $username )
+function validUser($username, $password)
+{
+    $conexao = estabelerConexao();
+    
+    $stmt = $conexao->prepare("SELECT username FROM users WHERE username=:username AND password=:password");
+    $stmt->bindParam(':username', $username);
+    $stmt->bindParam(':password', $password);
+    
+    $stmt->execute();
+    
+    // Verificar se a consulta retornou alguma linha
+    if ($stmt->rowCount() > 0) {
+        // O usuário existe
+        return true;
+    } else {
+        // O usuário não existe
+        return false;
+    }
+}
+
+
+function adicionarUser($username, $password)
 {
     $conexao = estabelerConexao();
     $stmt = $conexao->prepare("INSERT INTO users ( `username`, `password`, `email` ) VALUES (:username, :password, :email )");
-    $stmt->execute( [ 'username' => $username, 'password' => '1234', 'email' => "$username@gmail.com" ] );
+    $stmt->execute( [ 'username' => $username, 'password' => $password, 'email' => "$username@gmail.com" ] );
 }
 
 function getLikes( $username )

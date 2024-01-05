@@ -153,3 +153,106 @@ div.personagem {
     width: 24%;
     flex-basis: auto;
 }
+
+a.ranking-link {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    background-color: #0074cc;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a.ranking-link:hover {
+    background-color: #00589e;
+}
+
+div.personagem span {
+    background-color: #3c1585;
+    text-align: center;
+    color: aliceblue;
+}
+
+form#getUsername {
+    margin-top: 20px;
+}
+
+form#getUsername label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form#getUsername input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form#getUsername input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#getUsername input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 10px;
+}
+
+p a {
+    color: #0074cc;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+form#register {
+    margin-top: 20px;
+}
+
+form#register label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form#register input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form#register input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#register input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 10px;
+}
+
+p a {
+    color: #0074cc;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

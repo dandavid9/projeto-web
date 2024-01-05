@@ -26,3 +26,5 @@
     echo "<a href='logout.php'>Logout</a>";
     ?> 
 </div>
+     <a class="ranking-link" href="ranking.php">Ranking de popularidade</a>
+    

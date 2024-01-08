@@ -13,7 +13,7 @@
                 <label>Username </label>
                 <input type="text" placeholder="Username" name="username" required>
                 <label>Password </label>
-                <input type="text" placeholder="Password" name="password" required>
+                <input type="password" placeholder="Password" name="password" required>
                 <input type="submit" name="login" value="Login">
             </form>
             <p>Não tem uma conta? <a href="registro.php">Registre-se</a></p>
